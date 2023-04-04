@@ -1,0 +1,55 @@
+<div class="full" fxLayoutAlign="center center">
+    <div class="box" fxLayout="row" fxLayout.lt-md="column" fxFlex="75%" fxFlex.lt-lg="80%" fxFlex.lt-md="70%" fxFlex.lt-sm="96%" fxLayoutGap="30px">
+        <div class="left"  fxFlex="50%">
+            <br>
+            <div class="left1">
+                <p class="signin">Have an account?<a href="#">Sign In</a> </p>
+                <br><br><br><br>
+                <div class="heading">
+                    <h1>Welcome to AOT</h1>
+                    <p>Blandit libero volutpat sed oras arou send.Accumsan in nisl nisl scelerisque eu.</p>
+                </div>
+                <br><br>
+                <div class="forms">
+                    <mat-form-field appearance="outline" class="input" floatLabel="always"> 
+                        <mat-label>Email</mat-label>
+                        <input matInput placeholder="bharath@gmail.com">
+                        <mat-icon matSuffix>alternate_email</mat-icon>   
+                    </mat-form-field><br>
+                    <mat-form-field appearance="outline" class="input"  floatLabel="always">
+                        <mat-label>Password</mat-label>
+                        <input matInput [type]="hide ? 'password' : 'text'" placeholder="6+strong character">
+                        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+                    </mat-form-field><br>
+                    <button mat-raised-button class="btn">Create an account</button>
+                </div>
+                <br><br>
+                <mat-divider></mat-divider>
+                <div class="signup" fxLayoutAlign="center center"><span>Or sign up with</span></div>
+                <br><br>
+                <div class="icon">
+                    <div class="i1" fxLayoutAlign="center center"><img src="../../../assets/google.png" alt="google"></div>
+                    <div class="i2" fxLayoutAlign="center center"><img src="../../../assets/fb.png" alt=""></div>
+                    <div class="i3" fxLayoutAlign="center center"><img src="../../../assets/apple.png" alt=""></div>
+                </div>
+                <br><br><br><br><br><br>
+            </div>
+        </div>
+        <div class="right" fxFlex="50%">
+            <div class="right1">
+                <br><br><br><br><br><br>
+                <div class="quote"><img src="../../../assets/quote.png" alt=""></div>
+                <br>
+                <h1>Make a Dream</h1>
+                <p class="dreamcon"><q>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium atque blanditiis vero quam mollitia asperiores, accusantium aut et excepturi nisi.</q></p>
+                <div class="imgname">
+                    <div class="img"><img src="../../../assets/WIN_20230215_18_50_49_Pro.jpg" alt=""></div>
+                    <div class="nameofimg"><span id="name">Bharath R,</span> <br> <span id="role">Software Engg.</span></div>
+                </div>
+                <br><br><br><br>
+            </div>
+        </div>
+    </div>
+</div>

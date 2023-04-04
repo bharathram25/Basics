@@ -1,0 +1,67 @@
+<div class="full" fxLayoutAlign="center center">
+  <div class="content" fxLayout="row" fxLayout.lt-md="column"  fxLayoutGap="40px" fxFlex="70%"  fxFlex.lt-sm="100%" >
+    <!-------------------------------------- BOX LEFT ------------------------------------->
+    <div class="box1" fxFlex="50%" fxFlexOrder="1" fxFlexOrder.lt-md="2">
+      <div class="icon1" id="icon1">
+        <div class="blue">
+          <div class="white">
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+        <p class="t1" id="t1">
+          <span>Let us help you run your freelance business.</span>
+          <br /><br />Our registration process is quick and easy, talking no more than 10 minutes to compete.</p>
+      <br /><br /><br>
+      <div class="col11" id="col113">
+        <div class="slides">
+          <div class="carosal">
+            <div class="customer-content">
+              I'm impressed with amet is the way of product.In begining from clients and projects in the first week.
+            </div>
+            <div class="customer-img">
+              <div class="customer-img1">
+                <img src="../../../assets/don.jpeg" alt="" />
+              </div>
+              <div>
+                <p class="name"><span style="font-weight: 400; font-size: 13px">Janas Kim</span>,<br /><span style="color: gray">Product Designer</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="dot" fxLayout="row" fxLayoutAlign="center center">
+        <div class="dotss1"></div>
+        <div class="dotss"></div>
+        <div class="dotss"></div>
+      </div>
+    </div>
+    <!-------------------------------------- BOX RIGHT------------------------------------>
+    <div class="right" fxFlex="50%" fxFlexOrder="2" fxFlexOrder.lt-md="1">
+        <br /><br />
+        <h2 class="right-head">Get started</h2>
+        <p class="right-head-sub">Create your acount now</p>
+      <br /><br />
+      <mat-label>Full name</mat-label>
+      <mat-form-field class="example-full-width" appearance="outline">
+        <input matInput placeholder="Ex.Bharath R" class="input" />
+      </mat-form-field>
+      <mat-label>Email</mat-label>
+      <mat-form-field class="example-full-width" appearance="outline">
+        <input matInput placeholder="pat@example.com" [formControl]="email" required/>
+        <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+      </mat-form-field>
+      <div class="strong">
+        <mat-label class="example-full-width">Password</mat-label>
+        <p class="spans">Strong!</p>
+      </div>
+      <mat-form-field class="example-full-width" appearance="outline">
+      <input matInput [type]="hide ? 'password' : 'text'" placeholder="********" />
+      </mat-form-field>
+      <button mat-raised-button class="signup-btn">Sign up</button>
+      <br /><br /><br /><br /><br />
+      <p class="login">Have an account? <a href="#">Login</a></p>
+    </div>
+  </div>
+</div>

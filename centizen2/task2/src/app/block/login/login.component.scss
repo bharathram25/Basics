@@ -1,0 +1,145 @@
+.full{
+    width: 100%;
+    background-color: rgb(235, 238, 246);
+    padding: 4% 0;
+    // min-height: 100vh;
+}
+.box{
+    background-color: #ffffff;
+    // padding: 2% 3% 1% 10%;
+    // margin: 4%;
+    border-radius: 10px;
+    // overflow: hidden;
+}
+.left{
+    padding: 2% 3% 1% 8%;
+    // border-radius: 8px;
+}
+.left1{
+    width: 95%;
+}
+.signin{
+    color: rgb(217, 217, 220);
+}
+.signin a{
+    color: rgb(32, 40, 235);
+    text-decoration: none;
+}
+.heading p{
+    color: rgb(171, 170, 177);
+    font-size: 12px;
+    margin-top: 13px;
+}
+.heading h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+}
+.btn{
+    background-color: rgb(32, 40, 235) !important;
+    color: #ffffff !important;
+    width: 100%;
+    padding: 25px;
+    // border-radius: 8px;
+}
+.input{
+    width: 100% !important;
+}
+.input mat-icon{
+    color: rgb(171, 170, 177);
+}
+
+.signup span{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 8px;
+    // margin-top:10px;
+}
+.signup span{
+    color: rgb(171, 170, 177);
+    font-size: 13px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+:where(.i2, .i3){
+    border: 1px solid #ecedff;
+    padding: 1.5% 10%;
+}
+.i1{
+    border: 1px solid #ecedff;
+    padding: 1.5% 8%;
+}
+.i1 img{
+    height: 35px;
+    width: 35px;
+    
+}
+.i2 img{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+}
+.i3 img{
+    height: 20px;
+    width: 20px;
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+.right{
+    background-color: rgb(32, 40, 235);
+    padding: 2% 3% 1% 8%;
+    
+}
+.right1{
+    width: 100%;
+}
+.quote img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.right1 h1{
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 16px;
+}
+.dreamcon{
+    color: rgb(165, 178, 241);
+    font-size: 11px;
+    padding-left: 75px;
+    margin-top: 35px;
+    padding-right: 40px;
+}
+.imgname{
+    padding-left: 75px;
+    display: flex;
+    margin-top: 5%;
+}
+.img img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.nameofimg{
+    margin-left: 2%;
+    color: white;
+}
+#name{
+    font: 14px;
+}
+#role{
+    color:  rgb(171, 170, 177);
+    font-size: 12px;
+}
+
+@media (max-width: 600px){
+    .full{
+        padding: 1% 0;
+    }
+}
